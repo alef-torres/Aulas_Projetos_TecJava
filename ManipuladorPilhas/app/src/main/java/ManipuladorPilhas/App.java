@@ -6,7 +6,7 @@ package ManipuladorPilhas;
 public class App {
 
     public static void main(String[] args) {
-        
+
         Pilha pilha = new Pilha(5);
         pilha.Empilhar(10);
         pilha.Empilhar(20);
@@ -14,11 +14,7 @@ public class App {
         pilha.Empilhar(40);
         pilha.Empilhar(50);
         
-        pilha.
-        
-       
         System.out.println(pilha.mostrarPilha());
-        
-        
+
     }
 }

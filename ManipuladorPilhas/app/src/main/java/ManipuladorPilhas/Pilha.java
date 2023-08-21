@@ -13,7 +13,7 @@ public class Pilha {
     int topo;
     int vetor[];
 
-    Pilha(int tam) {
+    public Pilha(int tam) {
         topo = -1;
         tamanho = tam;
         vetor = new int[tam];
